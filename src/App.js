@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <div className="box">
+      <div className="header">React drop files input</div>
+    </div>
+  );
 }
 
 export default App;
